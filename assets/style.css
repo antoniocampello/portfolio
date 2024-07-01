@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ccc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    margin: 0 auto 20px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.color {
+    color: #4ECE1A;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+}
+.bio {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
